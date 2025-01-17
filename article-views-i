@@ -1,0 +1,11 @@
+Question URL-
+https://leetcode.com/problems/article-views-i/?envType=study-plan-v2&envId=top-sql-50
+
+Solution
+# Write your MySQL query statement below
+select distinct author_id
+AS id
+from Views
+Where author_id = viewer_id
+
+Order by id  ASC
